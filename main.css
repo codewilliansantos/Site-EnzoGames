@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #121e58;
+    color: aliceblue;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body, inputn, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+section 
+
+.store-front {
+    width:  60%;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px ;
+}
+
+section {
+    color: #121e58;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #121e58;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4453a1;
+}
+
+input:focus, textarea:focus{
+    outline-color:#121e58;
+}
+
+footer {
+    background-color: #121e58;
+    color: aliceblue;
+    padding: 16px 0;
+}
